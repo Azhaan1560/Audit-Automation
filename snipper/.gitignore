@@ -1,0 +1,26 @@
+#Environment variables
+.env
+.env.local
+
+#Virtual environments
+.venv/
+
+#pycache
+__pycache__/
+
+#Data
+data/sets
+data/seed/*.csv
+*.pdf
+
+# Python tool caches
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Phase 3 add-in: Node installs thousands of files here
+node_modules/
+
+# Editor and OS clutter
+.vscode/
+Thumbs.db
